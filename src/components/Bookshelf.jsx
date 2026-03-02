@@ -4,8 +4,8 @@ import "./Bookshelf.css";
 export default function Bookshelf() {
   const [story, setStory] = useState(null);
 
-  const handleClick = async (bookId) => {
-    const res = await fetch(`/api/random-story?book=${bookId}`);
+  const handleClick = async (storyId) => {
+    const res = await fetch(`/api/random-story?story=${storyId}`);
     const data = await res.json();
     setStory(data.story);
   };
