@@ -3,7 +3,6 @@
   border-bottom: 1px solid var(--parchment-mid);
   transition: padding 0.4s ease;
 }
-
 /* layout for page with right-side image */
 .pageWithImage {
   display: flex;
