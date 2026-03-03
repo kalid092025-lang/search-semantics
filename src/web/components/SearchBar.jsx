@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { SearchMode } from "../api/stories";
+import { SearchMode } from "../../api/stories";
 import styles from "./SearchBar.module.css";
 const SUGGESTIONS = [
   "a man facing the sea alone",

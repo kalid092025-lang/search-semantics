@@ -4,7 +4,7 @@ import SearchBar from "../components/SearchBar";
 import ResultsGrid from "../components/ResultsGrid";
 import StoryModal from "../components/StoryModal";
 import { useSearch } from "../hooks/useSearch";
-import { getAllStories } from "../api/stories";
+import { getAllStories } from "../../api/stories";
 import styles from "./SearchPage.module.css";
 
 export default function SearchPage() {

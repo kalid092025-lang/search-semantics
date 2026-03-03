@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useLocation, useParams, useNavigate } from "react-router-dom";
-import { getStoryById } from "../api/stories";
+import { getStoryById } from "../../api/stories";
 import styles from "./StoryDetailPage.module.css";
 
 const GENRE_COLORS = {

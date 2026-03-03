@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { getStoryById } from "../api/stories";
+import { getStoryById } from "../../api/stories";
 import styles from "./StoryModal.module.css";
 
 const GENRE_COLORS = {

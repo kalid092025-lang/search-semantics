@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./components/Navbar";
-import SearchPage from "./pages/SearchPage";
-import StoryDetailPage from "./pages/StoryDetailPage";
+import Navbar from "./web/components/Navbar";
+import SearchPage from "./web/pages/SearchPage";
+import StoryDetailPage from "./web/pages/StoryDetailPage";
 
 export default function App() {
   return (

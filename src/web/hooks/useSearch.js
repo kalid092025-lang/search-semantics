@@ -1,5 +1,5 @@
 import { useState, useCallback } from "react";
-import { searchStories, SearchMode } from "../api/stories";
+import { searchStories, SearchMode } from "../../api/stories";
 
 export function useSearch() {
   const [results, setResults] = useState([]);
