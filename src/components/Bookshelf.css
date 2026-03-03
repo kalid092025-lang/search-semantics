@@ -1,28 +1,33 @@
 .shelf-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.shelf-container {
   position: relative;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
+  width: fit-content;  
 }
 
 .shelf-image {
   display: block;
   width: 100%;
   height: auto;
+  pointer-events: none;
 }
 
 .hotspot {
   position: absolute;
   cursor: pointer;
+  z-index: 10;
   background: transparent;
-  border: none;
-  /* invisible but still interactable */
-  pointer-events: auto;
+  outline: none;
 }
 
-.hotspot:hover,
-.hotspot:focus {
-  outline: 2px solid rgba(59, 130, 246, 0.5);
+
+.hotspot:focus,
+.hotspot:focus-visible,
+.hotspot:active {
+  outline: none;
 }
 
 .story-box {

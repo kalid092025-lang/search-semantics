@@ -12,84 +12,86 @@ export default function Bookshelf() {
 
   return (
     <div className="shelf-wrapper">
-      <img src="/bilde.png" className="shelf-image" alt="Bookshelf" />
+      <div className="shelf-container">
+        <img src="/bilde.png" className="shelf-image" alt="Bookshelf" />
 
-      {/* ---------- TOP SHELF ---------- */}
-      <div
-        className="hotspot"
-        style={{ top: "10%", left: "53%", width: "10%", height: "10%" }}
-        onClick={() => handleClick("meta-data")}
-      />
+   
+        <div
+          className="hotspot"
+          style={{ top: "10%", left: "53%", width: "10%", height: "10%" }}
+          onClick={() => handleClick("")}
+        />
 
-      <div
-        className="hotspot"
-        style={{ top: "10%", left: "63%", width: "10%", height: "10%" }}
-        onClick={() => handleClick("last-bus-home")}
-      />
+        <div
+          className="hotspot"
+          style={{ top: "10%", left: "63%", width: "10%", height: "10%" }}
+          onClick={() => handleClick("")}
+        />
 
-      <div
-        className="hotspot"
-        style={{ top: "10%", left: "73%", width: "10%", height: "10%" }}
-        onClick={() => handleClick("customer-support")}
-      />
+        <div
+          className="hotspot"
+          style={{ top: "10%", left: "73%", width: "10%", height: "10%" }}
+          onClick={() => handleClick("")}
+        />
 
-      <div
-        className="hotspot"
-        style={{ top: "10%", left: "83%", width: "10%", height: "10%" }}
-        onClick={() => handleClick("red-book")}
-      />
+        <div
+          className="hotspot"
+          style={{ top: "10%", left: "83%", width: "10%", height: "10%" }}
+          onClick={() => handleClick("")}
+        />
 
-      {/* ---------- SECOND SHELF ---------- */}
-      <div
-        className="hotspot"
-        style={{ top: "28%", left: "8%", width: "28%", height: "5%" }}
-        onClick={() => handleClick("lighthouse-keeper")}
-      />
+     
+        <div
+          className="hotspot"
+          style={{ top: "28%", left: "8%", width: "28%", height: "5%" }}
+          onClick={() => handleClick("")}
+        />
 
-      <div
-        className="hotspot"
-        style={{ top: "33%", left: "8%", width: "28%", height: "5%" }}
-        onClick={() => handleClick("garden-of-second-chances")}
-      />
+        <div
+          className="hotspot"
+          style={{ top: "33%", left: "8%", width: "28%", height: "5%" }}
+          onClick={() => handleClick("")}
+        />
 
-      <div
-        className="hotspot"
-        style={{ top: "28%", left: "60%", width: "28%", height: "10%" }}
-        onClick={() => handleClick("warranty-void")}
-      />
+        <div
+          className="hotspot"
+          style={{ top: "28%", left: "60%", width: "28%", height: "10%" }}
+          onClick={() => handleClick("")}
+        />
 
-      {/* ---------- THIRD SHELF ---------- */}
-      <div
-        className="hotspot"
-        style={{ top: "47%", left: "20%", width: "26%", height: "5%" }}
-        onClick={() => handleClick("red-shift")}
-      />
+        {/* THIRD SHELF */}
+        <div
+          className="hotspot"
+          style={{ top: "20%", left: "20%", width: "26%", height: "5%" }}
+          onClick={() => handleClick("")}
+        />
 
-      <div
-        className="hotspot"
-        style={{ top: "52%", left: "20%", width: "34%", height: "5%" }}
-        onClick={() => handleClick("clockmakers-apprentice")}
-      />
+        <div
+          className="hotspot"
+          style={{ top: "52%", left: "20%", width: "34%", height: "5%" }}
+          onClick={() => handleClick("")}
+        />
 
-      {/* ---------- FOURTH SHELF ---------- */}
-      <div
-        className="hotspot"
-        style={{ top: "67%", left: "16%", width: "30%", height: "6%" }}
-        onClick={() => handleClick("recipe-for-rain")}
-      />
+        {/* FOURTH SHELF */}
+        <div
+          className="hotspot"
+          style={{ top: "67%", left: "16%", width: "30%", height: "6%" }}
+          onClick={() => handleClick("")}
+        />
 
-      <div
-        className="hotspot"
-        style={{ top: "73%", left: "16%", width: "30%", height: "6%" }}
-        onClick={() => handleClick("silent-orchard")}
-      />
+        <div
+          className="hotspot"
+          style={{ top: "73%", left: "16%", width: "30%", height: "6%" }}
+          onClick={() => handleClick("")}
+        />
 
-      {story && (
-        <div className="story-box">
-          <h2>Story</h2>
-          <p>{story}</p>
-        </div>
-      )}
+        {story && (
+          <div className="story-box">
+            <h2>Story</h2>
+            <p>{story}</p>
+          </div>
+        )}
+      </div>  
     </div>
   );
 }

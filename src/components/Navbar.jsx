@@ -20,25 +20,6 @@ export default function Navbar() {
   };
 
   return (
-    <header className={styles.header}>
-      <div className={styles.inner}>
-        <Link to="/" className={styles.brand}>
-          <span className={styles.brandMark}>❧</span>
-          <span className={styles.brandName}>Short Story Press</span>
-        </Link>
-        <div className={styles.searchBar}>
-          <input 
-            type="text" 
-            className={styles.searchInput} 
-            placeholder="Search..." 
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            onKeyDown={handleKeyDown}
-          />
-          <button className={styles.searchBtn} onClick={handleSearch}>Search</button>
-        </div>
-        
-      </div>
-    </header>
+    <div></div>
   );
 }
